@@ -1,0 +1,27 @@
+/* =============
+    Nav Background
+============= */
+#nav-bg {
+    position: fixed;
+    height: 50px;
+    width: 80vw;
+    top: 0;
+    right: 0;
+    z-index: 150;
+    background-color: $white;
+    overflow: hidden;
+
+    svg {
+        // transform: rotate(45deg);
+        background-color: $blank;
+
+        circle {
+            fill: $white;
+        }
+    }
+    // >div{
+    //     // border-radius: 50%;
+    //     height: 100%;
+    //     width: 100%;
+    // }
+}

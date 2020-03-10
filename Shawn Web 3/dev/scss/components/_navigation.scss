@@ -1,0 +1,66 @@
+/* =============
+    Navigation
+============= */
+nav {
+    position: fixed;
+    right: 24px;
+    top: 15%;
+    width: 80vw;
+    z-index: 300;
+    @include md {
+        width: 40vw;
+    }
+    @include lg {
+        width: 30vw;
+    }
+
+    ul {
+        li {
+            display: none;
+            @include md {}
+            @include lg {}
+
+            h6 {
+                font-family: "sofia-pro", sans-serif;
+                background-color: $blank;
+                border: none;
+                cursor: pointer;
+                font-size: rem-calc(28);
+                // height: 100%;
+                padding: 10px 0;
+                text-align: right;
+                transition: 0.25s;
+                width: 100%;
+                margin-bottom: 16px;
+                text-decoration: none;
+                color: $white;
+                @include md {
+                    font-size: rem-calc(32);
+                    margin-bottom: 24px;
+                }
+                @include lg {
+                    font-size: rem-calc(40);
+                    margin-bottom: 32px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    transition: 0.25s;
+                }
+                a:link, a:visited{
+                    color: $white;
+
+                }
+                a:hover, a:active{
+                    border-bottom: 4px solid $white;
+                }
+            }
+
+        }
+
+        li:nth-last-child(1) {
+            margin-bottom: 0;
+        }
+    }
+}
