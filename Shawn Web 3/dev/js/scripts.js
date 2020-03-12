@@ -7,8 +7,6 @@
 
 // @codekit-prepend "rellax.js";
 
-// @codekit-prepend "waypoints.js";
-
 
 
 $(document).ready(function() {

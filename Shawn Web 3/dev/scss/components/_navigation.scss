@@ -4,7 +4,7 @@
 nav {
     position: fixed;
     right: 24px;
-    top: 15%;
+    top: 10%;
     width: 80vw;
     z-index: 300;
     @include md {
@@ -26,27 +26,29 @@ nav {
                 border: none;
                 cursor: pointer;
                 font-size: rem-calc(28);
+                line-height: rem-calc(0);
                 // height: 100%;
-                padding: 10px 0;
                 text-align: right;
                 transition: 0.25s;
                 width: 100%;
-                margin-bottom: 16px;
+                // margin-bottom: 16px;
                 text-decoration: none;
                 color: $white;
                 @include md {
-                    font-size: rem-calc(32);
-                    margin-bottom: 24px;
+                    // font-size: rem-calc(32);
+                    // margin-bottom: 24px;
                 }
                 @include lg {
-                    font-size: rem-calc(40);
-                    margin-bottom: 32px;
+                    // font-size: rem-calc(40);
+                    // margin-bottom: 32px;
                 }
 
                 a {
                     text-decoration: none;
                     color: $white;
                     transition: 0.25s;
+                    padding: 10px 0;
+
                 }
                 a:link, a:visited{
                     color: $white;

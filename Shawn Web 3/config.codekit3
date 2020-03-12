@@ -38,12 +38,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/communication.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/communication.html",
+		"oF": 0
+		},
 	"/dev/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
+	"/dev/gear.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/gear.html",
 		"oF": 0
 		},
 	"/dev/header.kit": {
@@ -69,6 +85,14 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/indoor.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/indoor.html",
+		"oF": 0
 		},
 	"/dev/js/burger/burger-click.js": {
 		"bF": 0,
@@ -142,8 +166,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -161,6 +185,30 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/navigation.html",
+		"oF": 0
+		},
+	"/dev/outdoor.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/outdoor.html",
+		"oF": 0
+		},
+	"/dev/quote1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/quote1.html",
+		"oF": 0
+		},
+	"/dev/quote2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/quote2.html",
 		"oF": 0
 		},
 	"/dev/scss/base/_base.scss": {
@@ -319,15 +367,18 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
+	"/dev/scss/sections/_quote1.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/styles-min.css",
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_quote1.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
@@ -337,10 +388,18 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/types.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/types.html",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -47,7 +47,7 @@ function burgerClicked(){
 
         lineToX.play();
         staggerNav.play();
-        linesToLine.reverse();
+        // linesToLine.reverse();
 
 
 
