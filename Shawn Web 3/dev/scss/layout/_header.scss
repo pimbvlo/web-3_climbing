@@ -11,13 +11,18 @@ header {
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     padding: 10px 0;
-    z-index: 500;
+    z-index: 1000;
 
     > div {
         grid-area: header;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        p{
+            color: $dark-cocolate;
+            font-size: rem-calc(32);
+            font-weight: 700;
+        }
 
         #burger-container {
             svg {

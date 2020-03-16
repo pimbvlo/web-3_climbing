@@ -19,6 +19,79 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/hero/hero.jpg": {
+		"ft": 16384,
+		"iS": 941879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/hero/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/hero/hero@2x.jpg": {
+		"ft": 16384,
+		"iS": 3243018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/hero/hero@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/hero/hero@3x.jpg": {
+		"ft": 16384,
+		"iS": 6011483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/hero/hero@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/quote1/Hold_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/quote1/Hold_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/quote1/Hold_2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/quote1/Hold_2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/quote1/Hold_3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/quote1/Hold_3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/quote1/Hold_4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/quote1/Hold_4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -156,6 +229,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/rellax-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/retina.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/retina.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1892,7 +1976,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap, ",
+	"jsCheckerReservedNamesString": "gsap, Rellax, waypoints, notify, ScrollToPlugin",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

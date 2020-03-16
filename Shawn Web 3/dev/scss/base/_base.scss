@@ -13,3 +13,21 @@ ul{
         list-style: none;
     }
 }
+.section-content{
+    // padding: 64px 0px;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    @include md{
+        // padding: 160px 0px;
+        grid-template-columns: 40px auto 40px;
+    }
+    @include lg{
+        // padding: 200px 0px;
+        grid-template-columns: auto 800 auto;
+    }
+
+    >div{
+        grid-area: content;
+    }
+}

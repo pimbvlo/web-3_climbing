@@ -7,16 +7,17 @@
     width: 80vw;
     top: 0;
     right: 0;
-    z-index: 150;
-    background-color: $black;
+    z-index: 900;
+    background-color: $dark-cocolate;
     overflow: hidden;
+    // filter: blur(3px);
 
     svg {
         // transform: rotate(45deg);
         background-color: $blank;
 
         circle {
-            fill: $black;
+            fill: $dark-cocolate;
         }
     }
     // >div{
