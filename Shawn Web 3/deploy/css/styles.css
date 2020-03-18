@@ -332,7 +332,7 @@ ul {
       grid-template-columns: 40px auto 40px; } }
   @media (min-width: 992px) {
     .section-content {
-      grid-template-columns: auto 800 auto; } }
+      grid-template-columns: auto 904px auto; } }
   .section-content > div {
     grid-area: content; }
 
@@ -379,6 +379,10 @@ p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400; }
+  @media (min-width: 992px) {
+    p {
+      font-size: 1.125rem;
+      line-height: 1.625rem; } }
 
 /* =============
     Buttons
@@ -404,7 +408,7 @@ textarea {
 nav {
   position: fixed;
   right: 24px;
-  top: 10%;
+  top: 56px;
   width: 80vw;
   z-index: 950; }
   @media (min-width: 768px) {
@@ -423,10 +427,17 @@ nav {
       font-size: 1.75rem;
       line-height: 0;
       text-align: right;
+      letter-spacing: 0.09375rem;
       transition: 0.25s;
       width: 100%;
       text-decoration: none;
       color: #F4F4F4; }
+      @media (min-width: 768px) {
+        nav ul li h6 {
+          font-size: 2rem; } }
+      @media (min-width: 992px) {
+        nav ul li h6 {
+          font-size: 2.5rem; } }
       nav ul li h6 a {
         text-decoration: none;
         color: #F4F4F4;
@@ -523,14 +534,17 @@ header {
           margin-bottom: 304px;
           text-align: right; } }
 
+/* =============
+    Quote1
+============= */
 #section-2 {
-  height: 368px; }
+  height: 50vh; }
   @media (min-width: 768px) {
     #section-2 {
       height: 576px; } }
   @media (min-width: 992px) {
     #section-2 {
-      height: 896px; } }
+      height: 120vh; } }
   #section-2 aside ul {
     position: relative; }
     #section-2 aside ul li {
@@ -552,8 +566,11 @@ header {
       @media (min-width: 768px) {
         #section-2 aside ul li:nth-child(1) {
           top: 400px;
-          right: -16vw; } }
+          right: 2vw; } }
       @media (min-width: 992px) {
+        #section-2 aside ul li:nth-child(1) img {
+          width: 480px; } }
+      @media (min-width: 1200px) {
         #section-2 aside ul li:nth-child(1) img {
           width: 576px; } }
     #section-2 aside ul li:nth-child(2) {
@@ -563,6 +580,13 @@ header {
       @media (min-width: 768px) {
         #section-2 aside ul li:nth-child(2) {
           top: 136px; } }
+      @media (min-width: 992px) {
+        #section-2 aside ul li:nth-child(2) {
+          top: 112px;
+          left: 2vw; } }
+      @media (min-width: 1200px) {
+        #section-2 aside ul li:nth-child(2) {
+          left: 10vw; } }
       #section-2 aside ul li:nth-child(2) img {
         width: 240px; }
         @media (min-width: 768px) {
@@ -570,15 +594,18 @@ header {
             width: 512px; } }
         @media (min-width: 992px) {
           #section-2 aside ul li:nth-child(2) img {
-            width: 702px; } }
+            width: 680px; } }
     #section-2 aside ul li:nth-child(3) {
       z-index: 3;
       display: none; }
       @media (min-width: 992px) {
         #section-2 aside ul li:nth-child(3) {
           display: initial;
-          top: 520px;
-          left: 112px; } }
+          top: 440px;
+          left: 10vw; } }
+      @media (min-width: 1200px) {
+        #section-2 aside ul li:nth-child(3) {
+          left: 2vw; } }
     #section-2 aside ul li:nth-child(4) {
       z-index: 4;
       top: -24px;
@@ -589,7 +616,7 @@ header {
   #section-2 article {
     position: absolute;
     z-index: 500;
-    height: 368px;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -602,14 +629,14 @@ header {
         grid-template-columns: auto 64% auto; } }
     @media (min-width: 992px) {
       #section-2 article {
-        height: 896px;
+        height: 120vh;
         grid-template-columns: auto 50% auto; } }
     #section-2 article div {
       grid-area: div;
       border-radius: 8px;
       padding: 16px;
       background-color: rgba(252, 252, 252, 0.8);
-      box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.05), 0 1px 10px 0 rgba(0, 0, 0, 0.03), 0 4px 5px 0 rgba(0, 0, 0, 0.04); }
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.01), 0 3px 12px 0 rgba(0, 0, 0, 0.01), 0 6px 7px 0 rgba(0, 0, 0, 0.01); }
       @supports (backdrop-filter: blur(3px)) {
         #section-2 article div {
           backdrop-filter: blur(3px); } }
@@ -619,3 +646,118 @@ header {
       @media (min-width: 992px) {
         #section-2 article div {
           padding: 32px; } }
+
+/* =============
+    Communication
+============= */
+#section-3 {
+  margin: 32px 0; }
+  @media (min-width: 768px) {
+    #section-3 {
+      margin: 48px 0; } }
+  @media (min-width: 992px) {
+    #section-3 {
+      margin: 64px 0; } }
+  #section-3 > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "article" "img"; }
+    @media (min-width: 768px) {
+      #section-3 > div {
+        grid-template-columns: 400px auto;
+        grid-template-areas: "article img";
+        position: relative; } }
+    @media (min-width: 992px) {
+      #section-3 > div {
+        grid-template-columns: 600px auto; } }
+    #section-3 > div article {
+      grid-area: article; }
+      @media (min-width: 768px) {
+        #section-3 > div article {
+          position: absolute;
+          z-index: 100;
+          top: 0; } }
+      #section-3 > div article h3 {
+        margin-bottom: 16px; }
+      #section-3 > div article p:nth-child(2) {
+        padding-bottom: 8px; }
+    #section-3 > div aside {
+      grid-area: img;
+      margin-top: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      @media (min-width: 768px) {
+        #section-3 > div aside {
+          margin-top: 176px;
+          height: 304px;
+          margin-left: -200px;
+          z-index: 50; } }
+      #section-3 > div aside figure {
+        border-radius: 73% 27% 81% 19% / 69% 61% 39% 31%;
+        background-image: url("../img/communication/manOnRockWall.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vw;
+        filter: grayscale(1); }
+        @media (min-width: 768px) {
+          #section-3 > div aside figure {
+            height: 304px;
+            opacity: 0.25; } }
+
+/* =============
+    Indoor
+============= */
+#section-4 {
+  background-color: #161D32;
+  padding: 32px 0; }
+  @media (min-width: 768px) {
+    #section-4 {
+      padding: 0px;
+      margin-bottom: 144px; } }
+  #section-4 > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "article" "img"; }
+    @media (min-width: 768px) {
+      #section-4 > div {
+        grid-template-columns: 400px auto;
+        grid-template-areas: "article img";
+        grid-gap: 8px; } }
+    @media (min-width: 992px) {
+      #section-4 > div {
+        grid-template-columns: 40% auto;
+        grid-gap: 16px; } }
+    #section-4 > div article {
+      grid-area: article;
+      color: #F4F4F4; }
+      @media (min-width: 768px) {
+        #section-4 > div article {
+          padding: 48px 0px 280px; } }
+      #section-4 > div article h3 {
+        margin-bottom: 16px; }
+      #section-4 > div article p:nth-child(2) {
+        padding-bottom: 8px; }
+    #section-4 > div aside {
+      grid-area: img;
+      margin-top: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; }
+      #section-4 > div aside figure {
+        border-radius: 30% 70% 15% 85% / 77% 66% 34% 23%;
+        background-image: url("../img/indoor/indoor.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vw;
+        filter: grayscale(1); }
+        @media (min-width: 768px) {
+          #section-4 > div aside figure {
+            height: 600px;
+            position: absolute;
+            margin-top: 200px; } }

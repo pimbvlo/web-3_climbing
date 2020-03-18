@@ -1,12 +1,15 @@
+/* =============
+    Quote1
+============= */
 #section-2{
     // position: relative;
-    height: 368px;
+    height: 50vh;
 
     @include md{
         height: 576px;
     }
     @include lg{
-        height: 896px;
+        height: 120vh;
     }
 
     aside{
@@ -39,10 +42,14 @@
                 @include md{
                     top: 400px;
 
-                    right: -16vw;
+                    right: 2vw;
                 }
                 img{
                     @include lg{
+                        width: 480px;
+                    }
+
+                    @include xl{
                         width: 576px;
                     }
 
@@ -58,13 +65,20 @@
                 @include md{
                     top: 136px;
                 }
+                @include lg{
+                    top: 112px;
+                    left: 2vw;
+                }
+                @include xl{
+                    left: 10vw;
+                }
                 img{
                     width: 240px;
                     @include md{
                         width: 512px;
                     }
                     @include lg{
-                        width: 702px;
+                        width: 680px;
                     }
 
                 }
@@ -75,8 +89,12 @@
                 display: none;
                 @include lg{
                     display: initial;
-                    top: 520px;
-                    left: 112px;
+                    top: 440px;
+                    left: 10vw;
+
+                }
+                @include xl{
+                    left: 2vw;
 
                 }
                 img{
@@ -103,7 +121,7 @@
     article{
         position: absolute;
         z-index: 500;
-        height: 368px;
+        height: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -115,7 +133,7 @@
             grid-template-columns: auto 64% auto;
         }
         @include lg{
-            height: 896px;
+            height: 120vh;
             grid-template-columns: auto 50% auto;
 
         }
@@ -126,7 +144,7 @@
             border-radius: 8px;
             padding: 16px;
             background-color: $off-white;
-            box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .05), 0 1px 10px 0 rgba(0, 0, 0, .03), 0 4px 5px 0 rgba(0, 0, 0, .04);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .01), 0 3px 12px 0 rgba(0, 0, 0, .01), 0 6px 7px 0 rgba(0, 0, 0, .01);
             @supports (backdrop-filter: blur(3px)){
                 backdrop-filter: blur(3px);
             }

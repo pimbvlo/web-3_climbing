@@ -19,6 +19,39 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/communication/manOnRockWall.jpg": {
+		"ft": 16384,
+		"iS": 185984,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/communication/manOnRockWall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/communication/manOnRockWall@2x.jpg": {
+		"ft": 16384,
+		"iS": 562420,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/communication/manOnRockWall@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/communication/manOnRockWall@3x.jpg": {
+		"ft": 16384,
+		"iS": 1126116,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/communication/manOnRockWall@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/hero/hero.jpg": {
 		"ft": 16384,
 		"iS": 941879,
@@ -47,6 +80,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/hero/hero@3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/indoor/indoor.jpg": {
+		"ft": 16384,
+		"iS": 198789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/indoor/indoor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/indoor/indoor@2x.jpg": {
+		"ft": 16384,
+		"iS": 789290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/indoor/indoor@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/indoor/indoor@3x.jpg": {
+		"ft": 16384,
+		"iS": 1961859,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/indoor/indoor@3x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -438,6 +504,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_communication.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_communication.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_hero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -447,6 +526,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_indoor.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_indoor.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -484,6 +576,28 @@
 		"oA": 1,
 		"oAP": "/dev/types.html",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
