@@ -3,15 +3,15 @@
 ============= */
 nav {
     position: fixed;
-    right: 24px;
+    // right: 24px;
     top: 56px;
-    width: 80vw;
+    width: 100%;
     z-index: 950;
     @include md {
-        width: 40vw;
+        // width: 40vw;
     }
     @include lg {
-        width: 30vw;
+        // width: 30vw;
     }
 
     ul {
@@ -21,26 +21,25 @@ nav {
             @include lg {}
 
             h6 {
-                font-family: "sofia-pro", sans-serif;
                 background-color: $blank;
                 border: none;
                 cursor: pointer;
-                font-size: rem-calc(28);
-                line-height: rem-calc(0);
+                // font-size: rem-calc(28);
+                // line-height: rem-calc(0);
                 // height: 100%;
-                text-align: right;
-                letter-spacing: rem-calc(1.5);
+                // text-align: right;
+                // letter-spacing: rem-calc(1.5);
                 transition: 0.25s;
                 width: 100%;
                 // margin-bottom: 16px;
                 text-decoration: none;
                 color: $white;
-                @include md {
-                    font-size: rem-calc(32);
-                }
-                @include lg {
-                    font-size: rem-calc(40);
-                }
+                // @include md {
+                //     font-size: rem-calc(32);
+                // }
+                // @include lg {
+                //     font-size: rem-calc(40);
+                // }
 
                 a {
                     text-decoration: none;

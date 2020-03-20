@@ -1,125 +1,120 @@
 /* =============
     Quote1
 ============= */
-#section-2{
+#section-6 {
     // position: relative;
     height: 50vh;
-
-    @include md{
+    @include md {
         height: 576px;
     }
-    @include lg{
+    @include lg {
         height: 120vh;
     }
 
-    aside{
-
-        ul{
+    aside {
+        ul {
             position: relative;
 
-            li{
+            li {
                 position: absolute;
                 z-index: 0;
 
-                img{
-                    width: 200px;
+                img {
+                    width: 96px;
                     z-index: 0;
                     // background-position: center;
                     // background-repeat: no-repeat;
                     // background-size: cover;
-
-                    @include md{
-                        width: 448px;
+                    @include md {
+                        width: 224px;
                     }
-                    @include lg{
-                        width: 400px;
-                    }
+                    @include lg {}
                 }
             }
-            li:nth-child(1){
-                top: 264px;
-                right: 16vw;
-                z-index: 1;
-                @include md{
-                    top: 400px;
 
-                    right: 2vw;
-                }
-                img{
-                    @include lg{
-                        width: 480px;
-                    }
-
-                    @include xl{
-                        width: 576px;
-                    }
-
+            li:nth-child(1) {
+                top: 24px;
+                left: -60px;
+                z-index: 4;
+                @include md {
+                    top: 10px;
+                    left: -4vw;
                 }
 
-
+                img {
+                    width: 240px;
+                    @include md {
+                        width: 464px;
+                    }
+                    @include lg {}
+                    @include xl {}
+                }
             }
-            li:nth-child(2){
-                z-index: 2;
 
-                top: 112px;
-                left: -56px;
-                @include md{
-                    top: 136px;
+            li:nth-child(2) {
+                z-index: 3;
+                top: 184px;
+                right: 56vw;
+                @include md {
+                    top: 456px;
+                    left: 8vw;
                 }
-                @include lg{
+                @include lg {
                     top: 112px;
                     left: 2vw;
                 }
-                @include xl{
+                @include xl {
                     left: 10vw;
                 }
-                img{
-                    width: 240px;
-                    @include md{
-                        width: 512px;
-                    }
-                    @include lg{
-                        width: 680px;
-                    }
 
+                img {
+                    @include md {}
+                    @include lg {}
                 }
             }
-            li:nth-child(3){
-                z-index: 3;
 
-                display: none;
-                @include lg{
-                    display: initial;
+            li:nth-child(3) {
+                top: 240px;
+                right: 2vw;
+                z-index: 2;
+                @include lg {
                     top: 440px;
                     left: 10vw;
-
                 }
-                @include xl{
+                @include xl {
                     left: 2vw;
-
-                }
-                img{
-                    // width: 240px;
                 }
 
+                img {
+                    width: 240px;
+                    @include md {
+                        width: 528px;
+                    }
+                    @include xl {}
+                }
             }
-            li:nth-child(4){
-                z-index: 4;
 
+            li:nth-child(4) {
+                z-index: 1;
                 top: -24px;
                 right: 8vw;
-                @include md{
+                display: none;
+                @include md {
                     top: -32px;
-
                 }
-                img{
-                    // width: 240px;
+                @include lg {
+                    display: initial;
                 }
 
+                img {
+                    @include lg {}
+                    @include xl {}
+                }
             }
         }
     }
-    article{
+
+    article {
         position: absolute;
         z-index: 500;
         height: 50vh;
@@ -129,39 +124,34 @@
         display: grid;
         grid-template-columns: auto 88% auto;
         grid-template-areas: ". div .";
-        @include md{
+        @include md {
             height: 576px;
             grid-template-columns: auto 64% auto;
         }
-        @include lg{
+        @include lg {
             height: 120vh;
             grid-template-columns: auto 50% auto;
-
         }
 
-
-        div{
+        div {
             grid-area: div;
             border-radius: 8px;
             padding: 16px;
             background-color: $off-white;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .01), 0 3px 12px 0 rgba(0, 0, 0, .01), 0 6px 7px 0 rgba(0, 0, 0, .01);
-            @supports (backdrop-filter: blur(3px)){
+            @supports (backdrop-filter: blur(3px)) {
                 backdrop-filter: blur(3px);
             }
-            @include md{
+            @include md {
                 padding: 24px;
-
             }
-            @include lg{
+            @include lg {
                 padding: 32px;
                 border-radius: 32px;
-
                 // width: 600px;
+            }
 
-            }
-            h2{
-            }
+            h2 {}
         }
     }
 }

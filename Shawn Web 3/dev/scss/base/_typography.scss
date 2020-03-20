@@ -9,7 +9,7 @@ h1,h3,h4,h5{
     font-family: 'Bitter', serif;
     font-weight: 700;
 }
-h2, p{
+h2,h6,p{
     font-family: 'Sen', sans-serif;
 
 }
@@ -38,6 +38,26 @@ h2{
 h3{
     font-size: rem-calc(24);
     line-height: rem-calc(32);
+}
+h6{
+    font-size: rem-calc(28);
+    line-height: rem-calc(0);
+
+    text-align: right;
+
+    letter-spacing: rem-calc(1.5);
+
+    color: $white;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+
+    @include md {
+        font-size: rem-calc(32);
+    }
+    @include lg {
+        font-size: rem-calc(40);
+    }
+
 }
 p{
     font-size: rem-calc(16);

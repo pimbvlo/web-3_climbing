@@ -347,7 +347,7 @@ h1, h3, h4, h5 {
   font-family: 'Bitter', serif;
   font-weight: 700; }
 
-h2, p {
+h2, h6, p {
   font-family: 'Sen', sans-serif; }
 
 h1 {
@@ -374,6 +374,21 @@ h2 {
 h3 {
   font-size: 1.5rem;
   line-height: 2rem; }
+
+h6 {
+  font-size: 1.75rem;
+  line-height: 0;
+  text-align: right;
+  letter-spacing: 0.09375rem;
+  color: #F4F4F4;
+  margin-block-start: 2em;
+  margin-block-end: 2em; }
+  @media (min-width: 768px) {
+    h6 {
+      font-size: 2rem; } }
+  @media (min-width: 992px) {
+    h6 {
+      font-size: 2.5rem; } }
 
 p {
   font-size: 1rem;
@@ -407,37 +422,19 @@ textarea {
 ============= */
 nav {
   position: fixed;
-  right: 24px;
   top: 56px;
-  width: 80vw;
+  width: 100%;
   z-index: 950; }
-  @media (min-width: 768px) {
-    nav {
-      width: 40vw; } }
-  @media (min-width: 992px) {
-    nav {
-      width: 30vw; } }
   nav ul li {
     display: none; }
     nav ul li h6 {
-      font-family: "sofia-pro", sans-serif;
       background-color: rgba(0, 0, 0, 0);
       border: none;
       cursor: pointer;
-      font-size: 1.75rem;
-      line-height: 0;
-      text-align: right;
-      letter-spacing: 0.09375rem;
       transition: 0.25s;
       width: 100%;
       text-decoration: none;
       color: #F4F4F4; }
-      @media (min-width: 768px) {
-        nav ul li h6 {
-          font-size: 2rem; } }
-      @media (min-width: 992px) {
-        nav ul li h6 {
-          font-size: 2.5rem; } }
       nav ul li h6 a {
         text-decoration: none;
         color: #F4F4F4;
@@ -476,9 +473,6 @@ header {
   height: 64px;
   width: 100%;
   background-color: #F4F4F4;
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
   padding: 10px 0;
   z-index: 1000; }
   header > div {
@@ -645,7 +639,8 @@ header {
           padding: 24px; } }
       @media (min-width: 992px) {
         #section-2 article div {
-          padding: 32px; } }
+          padding: 32px;
+          border-radius: 32px; } }
 
 /* =============
     Communication
@@ -656,6 +651,9 @@ header {
     #section-3 {
       margin: 48px 0; } }
   @media (min-width: 992px) {
+    #section-3 {
+      margin: 104px 0 64px; } }
+  @media (min-width: 1200px) {
     #section-3 {
       margin: 64px 0; } }
   #section-3 > div {
@@ -701,7 +699,7 @@ header {
         background-size: cover;
         width: 100%;
         height: 100vw;
-        filter: grayscale(1); }
+        filter: grayscale(0.5); }
         @media (min-width: 768px) {
           #section-3 > div aside figure {
             height: 304px;
@@ -761,3 +759,229 @@ header {
             height: 600px;
             position: absolute;
             margin-top: 200px; } }
+
+/* =============
+    Types
+============= */
+#section-5 {
+  padding: 32px 0; }
+  @media (min-width: 768px) {
+    #section-5 {
+      padding: 48px 0; } }
+  @media (min-width: 992px) {
+    #section-5 {
+      padding: 64px 0; } }
+  #section-5 > div article h3 {
+    margin-bottom: 32px; }
+  #section-5 > div article ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "bouldering" "toproping" "leadclimbing" "trad";
+    grid-template-rows: repeat(4, 288px);
+    grid-gap: 16px; }
+    @media (min-width: 768px) {
+      #section-5 > div article ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 312px);
+        grid-template-areas: "bouldering toproping" "leadclimbing trad"; } }
+    @media (min-width: 992px) {
+      #section-5 > div article ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 240px 320px 400px;
+        grid-template-areas: "bouldering bouldering" "toproping leadclimbing" "trad trad";
+        grid-gap: 32px; } }
+    #section-5 > div article ul li {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      border-radius: 8px;
+      transition: 0.25s; }
+      @media (min-width: 992px) {
+        #section-5 > div article ul li {
+          border-radius: 32px; } }
+      #section-5 > div article ul li > div {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #section-5 > div article ul li > div p {
+          color: #F4F4F4;
+          font-weight: 700;
+          font-size: 1.75rem;
+          line-height: 1.75rem;
+          text-transform: uppercase;
+          text-align: center; }
+          @media (min-width: 992px) {
+            #section-5 > div article ul li > div p {
+              font-size: 2rem;
+              line-height: 2rem; } }
+    @media (min-width: 992px) {
+      @supports (background-blend-mode: luminosity) {
+        #section-5 > div article ul li {
+          background-color: #5E3008;
+          transition: 0.25s; }
+          #section-5 > div article ul li > div {
+            visibility: hidden; }
+            #section-5 > div article ul li > div p {
+              color: #F4F4F4; }
+        #section-5 > div article ul li:hover {
+          background-blend-mode: luminosity; }
+        @media (min-width: 992px) {
+          #section-5 > div article ul li:hover > div {
+            visibility: visible; } } } }
+    #section-5 > div article ul li:nth-child(1) {
+      grid-area: bouldering;
+      background-image: url("../img/type/bouldering_grey.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      @media (min-width: 992px) {
+        @supports (background-blend-mode: multiply) {
+          #section-5 > div article ul li:nth-child(1) {
+            background-image: url("../img/type/bouldering.jpg"); } } }
+    #section-5 > div article ul li:nth-child(2) {
+      grid-area: toproping;
+      background-image: url("../img/type/toprope_grey.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      @media (min-width: 992px) {
+        @supports (background-blend-mode: multiply) {
+          #section-5 > div article ul li:nth-child(2) {
+            background-image: url("../img/type/toprope.jpg"); } } }
+    #section-5 > div article ul li:nth-child(3) {
+      grid-area: leadclimbing;
+      background-image: url("../img/type/leadclimbing_grey.jpg");
+      background-position: center 30%;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      @media (min-width: 992px) {
+        @supports (background-blend-mode: multiply) {
+          #section-5 > div article ul li:nth-child(3) {
+            background-image: url("../img/type/leadclimbing.jpg"); } } }
+    #section-5 > div article ul li:nth-child(4) {
+      grid-area: trad;
+      background-image: url("../img/type/trad_grey.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      @media (min-width: 992px) {
+        @supports (background-blend-mode: multiply) {
+          #section-5 > div article ul li:nth-child(4) {
+            background-image: url("../img/type/trad.jpg"); } } }
+
+/* =============
+    Quote1
+============= */
+#section-6 {
+  height: 50vh; }
+  @media (min-width: 768px) {
+    #section-6 {
+      height: 576px; } }
+  @media (min-width: 992px) {
+    #section-6 {
+      height: 120vh; } }
+  #section-6 aside ul {
+    position: relative; }
+    #section-6 aside ul li {
+      position: absolute;
+      z-index: 0; }
+      #section-6 aside ul li img {
+        width: 96px;
+        z-index: 0; }
+        @media (min-width: 768px) {
+          #section-6 aside ul li img {
+            width: 224px; } }
+    #section-6 aside ul li:nth-child(1) {
+      top: 24px;
+      left: -60px;
+      z-index: 4; }
+      @media (min-width: 768px) {
+        #section-6 aside ul li:nth-child(1) {
+          top: 10px;
+          left: -4vw; } }
+      #section-6 aside ul li:nth-child(1) img {
+        width: 240px; }
+        @media (min-width: 768px) {
+          #section-6 aside ul li:nth-child(1) img {
+            width: 464px; } }
+    #section-6 aside ul li:nth-child(2) {
+      z-index: 3;
+      top: 184px;
+      right: 56vw; }
+      @media (min-width: 768px) {
+        #section-6 aside ul li:nth-child(2) {
+          top: 456px;
+          left: 8vw; } }
+      @media (min-width: 992px) {
+        #section-6 aside ul li:nth-child(2) {
+          top: 112px;
+          left: 2vw; } }
+      @media (min-width: 1200px) {
+        #section-6 aside ul li:nth-child(2) {
+          left: 10vw; } }
+    #section-6 aside ul li:nth-child(3) {
+      top: 240px;
+      right: 2vw;
+      z-index: 2; }
+      @media (min-width: 992px) {
+        #section-6 aside ul li:nth-child(3) {
+          top: 440px;
+          left: 10vw; } }
+      @media (min-width: 1200px) {
+        #section-6 aside ul li:nth-child(3) {
+          left: 2vw; } }
+      #section-6 aside ul li:nth-child(3) img {
+        width: 240px; }
+        @media (min-width: 768px) {
+          #section-6 aside ul li:nth-child(3) img {
+            width: 528px; } }
+    #section-6 aside ul li:nth-child(4) {
+      z-index: 1;
+      top: -24px;
+      right: 8vw;
+      display: none; }
+      @media (min-width: 768px) {
+        #section-6 aside ul li:nth-child(4) {
+          top: -32px; } }
+      @media (min-width: 992px) {
+        #section-6 aside ul li:nth-child(4) {
+          display: initial; } }
+  #section-6 article {
+    position: absolute;
+    z-index: 500;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 88% auto;
+    grid-template-areas: ". div ."; }
+    @media (min-width: 768px) {
+      #section-6 article {
+        height: 576px;
+        grid-template-columns: auto 64% auto; } }
+    @media (min-width: 992px) {
+      #section-6 article {
+        height: 120vh;
+        grid-template-columns: auto 50% auto; } }
+    #section-6 article div {
+      grid-area: div;
+      border-radius: 8px;
+      padding: 16px;
+      background-color: rgba(252, 252, 252, 0.8);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.01), 0 3px 12px 0 rgba(0, 0, 0, 0.01), 0 6px 7px 0 rgba(0, 0, 0, 0.01); }
+      @supports (backdrop-filter: blur(3px)) {
+        #section-6 article div {
+          backdrop-filter: blur(3px); } }
+      @media (min-width: 768px) {
+        #section-6 article div {
+          padding: 24px; } }
+      @media (min-width: 992px) {
+        #section-6 article div {
+          padding: 32px;
+          border-radius: 32px; } }
