@@ -18,12 +18,21 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        p{
-            color: $dark-cocolate;
-            font-size: rem-calc(32);
-            font-weight: 700;
+        aside{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            img{
+                width: 9%;
+                height: 9%;
+                margin-right: 4px;
+            }
+            p{
+                color: $dark-cocolate;
+                font-size: rem-calc(32);
+                font-weight: 700;
+            }
         }
-
         #burger-container {
             svg {
                 height: 56px;

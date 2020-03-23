@@ -480,10 +480,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    header > div p {
-      color: #261111;
-      font-size: 2rem;
-      font-weight: 700; }
+    header > div aside {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+      header > div aside img {
+        width: 9%;
+        height: 9%;
+        margin-right: 4px; }
+      header > div aside p {
+        color: #261111;
+        font-size: 2rem;
+        font-weight: 700; }
     header > div #burger-container svg {
       height: 56px;
       cursor: pointer; }
