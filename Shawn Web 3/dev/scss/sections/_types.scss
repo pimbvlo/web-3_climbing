@@ -44,6 +44,10 @@
                     position: relative;
                     border-radius: 8px;
                     transition: 0.25s;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+
                     @include lg{
                         border-radius: 32px;
                     }
@@ -106,9 +110,6 @@
                 li:nth-child(1) {
                     grid-area: bouldering;
                     background-image: url("../img/type/bouldering_grey.jpg");
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
                     @include lg {
                         @supports (background-blend-mode: multiply) {
                             background-image: url("../img/type/bouldering.jpg");
@@ -123,9 +124,6 @@
                 li:nth-child(2) {
                     grid-area: toproping;
                     background-image: url("../img/type/toprope_grey.jpg");
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
                     @include lg {
                         @supports (background-blend-mode: multiply) {
                             background-image: url("../img/type/toprope.jpg");
@@ -141,8 +139,6 @@
                     grid-area: leadclimbing;
                     background-image: url("../img/type/leadclimbing_grey.jpg");
                     background-position: center 30%;
-                    background-repeat: no-repeat;
-                    background-size: cover;
                     @include lg {
                         @supports (background-blend-mode: multiply) {
                             background-image: url("../img/type/leadclimbing.jpg");
@@ -157,9 +153,6 @@
                 li:nth-child(4) {
                     grid-area: trad;
                     background-image: url("../img/type/trad_grey.jpg");
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
                     @include lg {
                         @supports (background-blend-mode: multiply) {
                             background-image: url("../img/type/trad.jpg");

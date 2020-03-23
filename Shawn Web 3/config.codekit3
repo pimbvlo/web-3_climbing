@@ -52,6 +52,171 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/gear/atc.png": {
+		"ft": 32768,
+		"iS": 607644,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/atc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/atc@2x.png": {
+		"ft": 32768,
+		"iS": 2437590,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/atc@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/atc@3x.png": {
+		"ft": 32768,
+		"iS": 4947163,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/atc@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/chalk_bag.png": {
+		"ft": 32768,
+		"iS": 553774,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/chalk_bag.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/chalk_bag@2x.png": {
+		"ft": 32768,
+		"iS": 2089891,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/chalk_bag@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/chalk_bag@3x.png": {
+		"ft": 32768,
+		"iS": 5284057,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/chalk_bag@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/climbing_shoes.png": {
+		"ft": 32768,
+		"iS": 515751,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/climbing_shoes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/climbing_shoes@2x.png": {
+		"ft": 32768,
+		"iS": 1923557,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/climbing_shoes@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/climbing_shoes@3x.png": {
+		"ft": 32768,
+		"iS": 3769458,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/climbing_shoes@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/grigri.png": {
+		"ft": 32768,
+		"iS": 778734,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/grigri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/grigri@2x.png": {
+		"ft": 32768,
+		"iS": 3069218,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/grigri@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/grigri@3x.png": {
+		"ft": 32768,
+		"iS": 5946801,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/grigri@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/harness.png": {
+		"ft": 32768,
+		"iS": 451603,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/harness.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/harness@2x.png": {
+		"ft": 32768,
+		"iS": 1609622,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/harness@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/gear/harness@3x.png": {
+		"ft": 32768,
+		"iS": 3077511,
+		"oA": 0,
+		"oAP": "/deploy/img/gear/harness@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/hero/hero.jpg": {
 		"ft": 16384,
 		"iS": 941879,
@@ -116,6 +281,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/outdoor/climber.png": {
+		"ft": 32768,
+		"iS": 251199,
+		"oA": 0,
+		"oAP": "/deploy/img/outdoor/climber.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/outdoor/climber@2x.png": {
+		"ft": 32768,
+		"iS": 926672,
+		"oA": 0,
+		"oAP": "/deploy/img/outdoor/climber@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/outdoor/climber@3x.png": {
+		"ft": 32768,
+		"iS": 1988102,
+		"oA": 0,
+		"oAP": "/deploy/img/outdoor/climber@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/quote1/Hold_1.svg": {
@@ -821,6 +1019,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_gear.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_gear.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_hero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -843,6 +1054,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_indoor.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_outdoor.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_outdoor.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

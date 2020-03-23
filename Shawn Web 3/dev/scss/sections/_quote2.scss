@@ -12,6 +12,8 @@
     }
 
     aside {
+        width: 100%;
+
         ul {
             position: relative;
 
@@ -28,7 +30,9 @@
                     @include md {
                         width: 224px;
                     }
-                    @include lg {}
+                    @include lg {
+                        width: 304px;
+                    }
                 }
             }
 
@@ -40,14 +44,23 @@
                     top: 10px;
                     left: -4vw;
                 }
+                @include lg{
+                    top: 32px;
+                    left: -12vw;
+                }
+                @include xl{
+                    left: 8vw;
+                }
+
 
                 img {
                     width: 240px;
                     @include md {
                         width: 464px;
                     }
-                    @include lg {}
-                    @include xl {}
+                    @include lg {
+                        width: 576px;
+                    }
                 }
             }
 
@@ -60,16 +73,13 @@
                     left: 8vw;
                 }
                 @include lg {
-                    top: 112px;
-                    left: 2vw;
+                    top: 632px;
+                    left: 64vw;
                 }
                 @include xl {
-                    left: 10vw;
+                    top: 736px;
                 }
-
                 img {
-                    @include md {}
-                    @include lg {}
                 }
             }
 
@@ -78,11 +88,12 @@
                 right: 2vw;
                 z-index: 2;
                 @include lg {
-                    top: 440px;
-                    left: 10vw;
+                    top: 208px;
+                    right: 0vw;
+                    left: 40vw;
                 }
-                @include xl {
-                    left: 2vw;
+                @include xl{
+                    left: 56vw;
                 }
 
                 img {
@@ -90,31 +101,32 @@
                     @include md {
                         width: 528px;
                     }
-                    @include xl {}
+                    @include lg {
+                        width: 600px;
+                    }
                 }
             }
 
             li:nth-child(4) {
                 z-index: 1;
-                top: -24px;
-                right: 8vw;
                 display: none;
-                @include md {
-                    top: -32px;
-                }
                 @include lg {
                     display: initial;
+                    top: 540px;
+                    right: 64vw;
                 }
 
                 img {
-                    @include lg {}
-                    @include xl {}
+                    @include lg {
+                        width: 648px;
+                    }
                 }
             }
         }
     }
 
     article {
+        width: 100%;
         position: absolute;
         z-index: 500;
         height: 50vh;

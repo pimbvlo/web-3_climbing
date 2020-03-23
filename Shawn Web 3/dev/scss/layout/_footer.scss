@@ -2,4 +2,15 @@
     Footer
 ============= */
 footer {
+    background-color: $dark-cocolate;
+    padding: 8px 0;
+    >div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;        
+        p{
+            color: $white;
+        }
+    }
 }
