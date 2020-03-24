@@ -1,6 +1,4 @@
 // @codekit-prepend "navigation.js";
-// @codekit-prepend "retina.min.js";
-
 
 // @codekit-prepend "burger/burger.js";
 // @codekit-prepend "burger/burger-mouseenter.js";

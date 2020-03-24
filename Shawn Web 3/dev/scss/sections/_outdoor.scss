@@ -48,6 +48,7 @@
                 width: 100%;
 
                 img {
+                    pointer-events: none;
                     position: absolute;
                     z-index: 10;
                     width: 280px;

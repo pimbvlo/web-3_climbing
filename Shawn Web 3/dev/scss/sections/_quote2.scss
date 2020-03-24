@@ -41,11 +41,11 @@
                 left: -60px;
                 z-index: 4;
                 @include md {
-                    top: 10px;
+                    top: 80px;
                     left: -4vw;
                 }
                 @include lg{
-                    top: 32px;
+                    top: 240px;
                     left: -12vw;
                 }
                 @include xl{
@@ -69,15 +69,15 @@
                 top: 184px;
                 right: 56vw;
                 @include md {
-                    top: 456px;
+                    top: 688px;
                     left: 8vw;
                 }
                 @include lg {
-                    top: 632px;
+                    top: 1248px;
                     left: 64vw;
                 }
                 @include xl {
-                    top: 736px;
+                    top: 1336px;
                 }
                 img {
                 }
@@ -88,7 +88,7 @@
                 right: 2vw;
                 z-index: 2;
                 @include lg {
-                    top: 208px;
+                    top: 424px;
                     right: 0vw;
                     left: 40vw;
                 }
@@ -112,8 +112,14 @@
                 display: none;
                 @include lg {
                     display: initial;
-                    top: 540px;
+                    top: 504px;
                     right: 64vw;
+                }
+                @include lg {
+                    top: 952px;
+                }
+                @include xl{
+                    top: 840px
                 }
 
                 img {

@@ -38,13 +38,19 @@
                 }
             }
             li:nth-child(1){
-                top: 264px;
+                top: 280px;
                 right: 16vw;
                 z-index: 1;
+                @include sm{
+                    top: 304px;
+                }
                 @include md{
                     top: 400px;
 
                     right: 2vw;
+                }
+                @include lg{
+                    top: 940px;
                 }
                 img{
                     @include lg{
@@ -68,7 +74,7 @@
                     top: 136px;
                 }
                 @include lg{
-                    top: 112px;
+                    top: 200px;
                     left: 2vw;
                 }
                 @include xl{
@@ -91,7 +97,7 @@
                 display: none;
                 @include lg{
                     display: initial;
-                    top: 440px;
+                    top: 600px;
                     left: 10vw;
 
                 }

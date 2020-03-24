@@ -485,9 +485,14 @@ header {
       align-items: center;
       justify-content: flex-start; }
       header > div aside img {
-        width: 9%;
-        height: 9%;
+        width: 8%;
+        height: 8%;
         margin-right: 4px; }
+        @media (min-width: 768px) {
+          header > div aside img {
+            width: 10%;
+            height: 10%;
+            margin-right: 6px; } }
       header > div aside p {
         color: #261111;
         font-size: 2rem;
@@ -575,13 +580,19 @@ footer {
             #section-2 aside ul li img {
               width: 400px; } }
       #section-2 aside ul li:nth-child(1) {
-        top: 264px;
+        top: 280px;
         right: 16vw;
         z-index: 1; }
+        @media (min-width: 576px) {
+          #section-2 aside ul li:nth-child(1) {
+            top: 304px; } }
         @media (min-width: 768px) {
           #section-2 aside ul li:nth-child(1) {
             top: 400px;
             right: 2vw; } }
+        @media (min-width: 992px) {
+          #section-2 aside ul li:nth-child(1) {
+            top: 940px; } }
         @media (min-width: 992px) {
           #section-2 aside ul li:nth-child(1) img {
             width: 480px; } }
@@ -597,7 +608,7 @@ footer {
             top: 136px; } }
         @media (min-width: 992px) {
           #section-2 aside ul li:nth-child(2) {
-            top: 112px;
+            top: 200px;
             left: 2vw; } }
         @media (min-width: 1200px) {
           #section-2 aside ul li:nth-child(2) {
@@ -616,7 +627,7 @@ footer {
         @media (min-width: 992px) {
           #section-2 aside ul li:nth-child(3) {
             display: initial;
-            top: 440px;
+            top: 600px;
             left: 10vw; } }
         @media (min-width: 1200px) {
           #section-2 aside ul li:nth-child(3) {
@@ -668,16 +679,16 @@ footer {
     Communication
 ============= */
 #section-3 {
-  margin: 32px 0; }
+  padding: 32px 0; }
   @media (min-width: 768px) {
     #section-3 {
-      margin: 48px 0; } }
+      padding: 48px 0; } }
   @media (min-width: 992px) {
     #section-3 {
-      margin: 104px 0 64px; } }
+      padding: 104px 0 64px; } }
   @media (min-width: 1200px) {
     #section-3 {
-      margin: 64px 0; } }
+      padding: 64px 0; } }
   #section-3 > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -828,6 +839,7 @@ footer {
         #section-5 > div article ul li {
           border-radius: 32px; } }
       #section-5 > div article ul li > div {
+        position: relative;
         height: 100%;
         width: 100%;
         display: flex;
@@ -842,8 +854,15 @@ footer {
           text-align: center; }
           @media (min-width: 992px) {
             #section-5 > div article ul li > div p {
-              font-size: 2rem;
-              line-height: 2rem; } }
+              font-size: 2.5rem;
+              line-height: 2.5rem;
+              position: absolute;
+              height: 40px;
+              width: 600px;
+              top: 50%;
+              left: 50%;
+              margin-left: -300px;
+              margin-top: -20px; } }
     @media (min-width: 992px) {
       @supports (background-blend-mode: luminosity) {
         #section-5 > div article ul li {
@@ -857,7 +876,9 @@ footer {
           background-blend-mode: luminosity; }
         @media (min-width: 992px) {
           #section-5 > div article ul li:hover > div {
-            visibility: visible; } } } }
+            visibility: visible; } }
+        #section-5 > div article ul li:hover > p {
+          filter: blur(-3px); } } }
     #section-5 > div article ul li:nth-child(1) {
       grid-area: bouldering;
       background-image: url("../img/type/bouldering_grey.jpg"); }
@@ -921,11 +942,11 @@ footer {
         z-index: 4; }
         @media (min-width: 768px) {
           #section-6 aside ul li:nth-child(1) {
-            top: 10px;
+            top: 80px;
             left: -4vw; } }
         @media (min-width: 992px) {
           #section-6 aside ul li:nth-child(1) {
-            top: 32px;
+            top: 240px;
             left: -12vw; } }
         @media (min-width: 1200px) {
           #section-6 aside ul li:nth-child(1) {
@@ -944,22 +965,22 @@ footer {
         right: 56vw; }
         @media (min-width: 768px) {
           #section-6 aside ul li:nth-child(2) {
-            top: 456px;
+            top: 688px;
             left: 8vw; } }
         @media (min-width: 992px) {
           #section-6 aside ul li:nth-child(2) {
-            top: 632px;
+            top: 1248px;
             left: 64vw; } }
         @media (min-width: 1200px) {
           #section-6 aside ul li:nth-child(2) {
-            top: 736px; } }
+            top: 1336px; } }
       #section-6 aside ul li:nth-child(3) {
         top: 240px;
         right: 2vw;
         z-index: 2; }
         @media (min-width: 992px) {
           #section-6 aside ul li:nth-child(3) {
-            top: 208px;
+            top: 424px;
             right: 0vw;
             left: 40vw; } }
         @media (min-width: 1200px) {
@@ -979,8 +1000,14 @@ footer {
         @media (min-width: 992px) {
           #section-6 aside ul li:nth-child(4) {
             display: initial;
-            top: 540px;
+            top: 504px;
             right: 64vw; } }
+        @media (min-width: 992px) {
+          #section-6 aside ul li:nth-child(4) {
+            top: 952px; } }
+        @media (min-width: 1200px) {
+          #section-6 aside ul li:nth-child(4) {
+            top: 840px; } }
         @media (min-width: 992px) {
           #section-6 aside ul li:nth-child(4) img {
             width: 648px; } }
@@ -1055,6 +1082,7 @@ footer {
       position: relative;
       width: 100%; }
       #section-7 > div aside figure img {
+        pointer-events: none;
         position: absolute;
         z-index: 10;
         width: 280px;
@@ -1094,6 +1122,10 @@ footer {
       #section-8 > div article ul {
         grid-template-columns: 40% auto;
         grid-template-areas: "atc shoes" "atc chalk" "grigri chalk" "grigri harness" "grigri harness"; } }
+    @media (min-width: 992px) {
+      #section-8 > div article ul {
+        grid-template-columns: 30% 10% auto 30%;
+        grid-template-areas: "atc . shoes shoes" "atc chalk chalk ." ". chalk chalk ." "grigri grigri . harness" "grigri grigri . harness"; } }
     #section-8 > div article ul li {
       height: 100%;
       width: 100%;
@@ -1116,7 +1148,8 @@ footer {
           width: 50%;
           height: 50%;
           filter: grayscale(0.5);
-          opacity: 0.98; }
+          opacity: 0.98;
+          pointer-events: none; }
         #section-8 > div article ul li > div p {
           color: #F4F4F4;
           font-weight: 700;
@@ -1126,10 +1159,10 @@ footer {
           text-align: center;
           position: absolute;
           height: 32px;
-          width: 200px;
+          width: 400px;
           top: 50%;
           left: 50%;
-          margin-left: -100px;
+          margin-left: -200px;
           margin-top: -16px;
           opacity: 1; }
           @supports (mix-blend-mode: lighten) {
@@ -1137,8 +1170,8 @@ footer {
               mix-blend-mode: lighten; } }
           @media (min-width: 992px) {
             #section-8 > div article ul li > div p {
-              font-size: 2rem;
-              line-height: 2rem; } }
+              font-size: 2.5rem;
+              line-height: 2.5rem; } }
     #section-8 > div article ul li:nth-child(1) {
       grid-area: atc;
       border-radius: 68% 32% 70% 30% / 73% 86% 14% 27%; }
@@ -1166,12 +1199,20 @@ footer {
         #section-8 > div article li:nth-child(3) > div img {
           width: 80%;
           height: 80%; } }
+      @media (min-width: 992px) {
+        #section-8 > div article li:nth-child(3) > div img {
+          width: 100%;
+          height: 100%; } }
   #section-8 > div article li:nth-child(4) {
     grid-area: harness;
     border-radius: 40% 60% 83% 17% / 65% 68% 32% 35%; }
     #section-8 > div article li:nth-child(4) > div img {
       width: 60%;
       height: 60%; }
+      @media (min-width: 992px) {
+        #section-8 > div article li:nth-child(4) > div img {
+          width: 120%;
+          height: 120%; } }
   #section-8 > div article li:nth-child(5) {
     grid-area: grigri;
     border-radius: 68% 32% 65% 35% / 14% 17% 83% 86%; }

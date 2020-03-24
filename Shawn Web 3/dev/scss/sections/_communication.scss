@@ -2,15 +2,15 @@
     Communication
 ============= */
 #section-3 {
-    margin: 32px 0;
+    padding: 32px 0;
     @include md {
-        margin: 48px 0;
+        padding: 48px 0;
     }
     @include lg {
-        margin: 104px 0 64px;
+        padding: 104px 0 64px;
     }
     @include xl {
-        margin:  64px 0;
+        padding:  64px 0;
     }
 
     > div {
