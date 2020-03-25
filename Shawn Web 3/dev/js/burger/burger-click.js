@@ -116,7 +116,7 @@ function burgerClicked() {
             duration: 0.75,
             scrollTo: {
                 y: contentSections[$('nav ul li').index(this)],
-                offsetY: 64
+                offsetY: 80
             }
         });
 
