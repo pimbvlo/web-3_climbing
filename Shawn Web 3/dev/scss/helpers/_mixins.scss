@@ -142,3 +142,28 @@ html {
 // @include xl{
 //     grid-template-columns: repeat(4, 1fr);
 // }
+
+/* ---------------- Light and Dark Media Quires ----------------  */
+
+// Color Scheme Light
+@mixin light {
+    @media (prefers-color-scheme: light) {
+        @content;
+    }
+}
+//Usage
+// @include light{
+//     body: #fff;
+// }
+
+
+// Color Scheme Dark
+@mixin dark {
+    @media (prefers-color-scheme: dark) {
+        @content;
+    }
+}
+//Usage
+// @include dark{
+//     body: #fff;
+// }

@@ -9,6 +9,9 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-template-areas: "content";
+    @include dark{
+        background-color: $light-chocolate;
+    }
     @include md{
         margin-bottom: 224px;
     }
@@ -21,6 +24,9 @@
             padding: 32px 16px 64px;
             color: $white;
             margin-bottom: 16px;
+            @include dark{
+                color: $black;
+            }
             @include md{
                 padding: 48px 40px;
                 margin-right: 50vw;

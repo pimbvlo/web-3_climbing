@@ -12,7 +12,10 @@ header {
     // grid-template-areas: ". header .";
     padding: 8px 0;
     z-index: 1000;
+    @include dark{
+        background-color: $black;
 
+    }
     > div {
         grid-area: header;
         display: flex;
@@ -31,11 +34,18 @@ header {
                     height: 6%;
                     margin-right: 6px;
                 }
+                .cls-1{
+                    fill: $white;
+                }
             }
             p{
                 color: $dark-cocolate;
                 font-size: rem-calc(30);
                 font-weight: 700;
+                @include dark{
+                    color: $white;
+                }
+
             }
         }
         #burger-container {
@@ -43,6 +53,12 @@ header {
                 height: 56px;
                 // width: 48px;
                 cursor: pointer;
+                #burger-outline{
+                    stroke: $white;
+                }
+                .burger-lines{
+                    stroke: $white;
+                }
             }
         }
     }

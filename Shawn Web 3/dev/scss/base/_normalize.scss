@@ -25,6 +25,10 @@ body {
   color: $dark-cocolate;
   background-color: $white;
   // overflow-x: hidden;
+  @include dark{
+      background-color: $black;
+      color: $white;
+  }
 }
 
 /**

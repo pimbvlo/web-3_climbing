@@ -37,7 +37,7 @@
             }
 
             li:nth-child(1) {
-                top: 24px;
+                top: 408px;
                 left: -60px;
                 z-index: 4;
                 @include md {
@@ -66,7 +66,7 @@
 
             li:nth-child(2) {
                 z-index: 3;
-                top: 184px;
+                top: 368px;
                 right: 56vw;
                 @include md {
                     top: 688px;
@@ -169,7 +169,9 @@
                 // width: 600px;
             }
 
-            h2 {}
+            h2 {
+                color: $dark-cocolate;
+            }
         }
     }
 }

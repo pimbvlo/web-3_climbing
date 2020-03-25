@@ -3,14 +3,23 @@
 ============= */
 footer {
     background-color: $dark-cocolate;
-    padding: 8px 0;
+    padding: 16px 0;
+    // @include dark{
+    //     background-color: $chocolate;
+    //
+    // }
     >div{
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: flex-end;        
+        justify-content: flex-end;
         p{
             color: $white;
+            // @include dark{
+            //     color: $white;
+            //
+            // }
+
         }
     }
 }
