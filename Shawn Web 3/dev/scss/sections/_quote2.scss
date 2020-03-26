@@ -2,7 +2,6 @@
     Quote1
 ============= */
 #section-6 {
-    // position: relative;
     height: 50vh;
     @include md {
         height: 576px;
@@ -24,9 +23,6 @@
                 img {
                     width: 96px;
                     z-index: 0;
-                    // background-position: center;
-                    // background-repeat: no-repeat;
-                    // background-size: cover;
                     @include md {
                         width: 224px;
                     }
@@ -37,21 +33,20 @@
             }
 
             li:nth-child(1) {
-                top: 408px;
                 left: -60px;
+                top: 408px;
                 z-index: 4;
                 @include md {
-                    top: 80px;
                     left: -4vw;
+                    top: 80px;
                 }
-                @include lg{
-                    top: 240px;
+                @include lg {
                     left: -12vw;
+                    top: 240px;
                 }
-                @include xl{
+                @include xl {
                     left: 8vw;
                 }
-
 
                 img {
                     width: 240px;
@@ -65,34 +60,32 @@
             }
 
             li:nth-child(2) {
-                z-index: 3;
-                top: 368px;
                 right: 56vw;
+                top: 368px;
+                z-index: 3;
                 @include md {
-                    top: 688px;
                     left: 8vw;
+                    top: 688px;
                 }
                 @include lg {
-                    top: 1248px;
                     left: 64vw;
+                    top: 1248px;
                 }
                 @include xl {
                     top: 1336px;
                 }
-                img {
-                }
             }
 
             li:nth-child(3) {
-                top: 240px;
                 right: 2vw;
+                top: 240px;
                 z-index: 2;
                 @include lg {
-                    top: 424px;
-                    right: 0vw;
                     left: 40vw;
+                    right: 0;
+                    top: 424px;
                 }
-                @include xl{
+                @include xl {
                     left: 56vw;
                 }
 
@@ -108,18 +101,18 @@
             }
 
             li:nth-child(4) {
-                z-index: 1;
                 display: none;
+                z-index: 1;
                 @include lg {
                     display: initial;
-                    top: 504px;
                     right: 64vw;
+                    top: 504px;
                 }
                 @include lg {
                     top: 952px;
                 }
-                @include xl{
-                    top: 840px
+                @include xl {
+                    top: 840px;
                 }
 
                 img {
@@ -132,31 +125,31 @@
     }
 
     article {
-        width: 100%;
-        position: absolute;
-        z-index: 500;
-        height: 50vh;
-        display: flex;
         align-items: center;
-        justify-content: center;
+        display: flex;
         display: grid;
-        grid-template-columns: auto 88% auto;
         grid-template-areas: ". div .";
+        grid-template-columns: auto 88% auto;
+        height: 50vh;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        z-index: 500;
         @include md {
-            height: 576px;
             grid-template-columns: auto 64% auto;
+            height: 576px;
         }
         @include lg {
-            height: 120vh;
             grid-template-columns: auto 50% auto;
+            height: 120vh;
         }
 
         div {
-            grid-area: div;
-            border-radius: 8px;
-            padding: 16px;
             background-color: $off-white;
+            border-radius: 8px;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .01), 0 3px 12px 0 rgba(0, 0, 0, .01), 0 6px 7px 0 rgba(0, 0, 0, .01);
+            grid-area: div;
+            padding: 16px;
             @supports (backdrop-filter: blur(3px)) {
                 backdrop-filter: blur(3px);
             }
@@ -164,9 +157,8 @@
                 padding: 24px;
             }
             @include lg {
-                padding: 32px;
                 border-radius: 32px;
-                // width: 600px;
+                padding: 32px;
             }
 
             h2 {

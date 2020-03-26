@@ -2,27 +2,20 @@
     Nav Background
 ============= */
 #nav-bg {
-    position: fixed;
-    height: 50px;
-    width: 80vw;
-    top: 0;
-    right: 0;
-    z-index: 900;
     background-color: $dark-cocolate;
+    height: 50px;
     overflow: hidden;
-    // filter: blur(3px);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80vw;
+    z-index: 900;
 
     svg {
-        // transform: rotate(45deg);
         background-color: $blank;
 
         circle {
             fill: $dark-cocolate;
         }
     }
-    // >div{
-    //     // border-radius: 50%;
-    //     height: 100%;
-    //     width: 100%;
-    // }
 }

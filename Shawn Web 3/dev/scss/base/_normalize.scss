@@ -9,8 +9,8 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15; /* 1 */
 }
 
 /* Sections
@@ -21,9 +21,9 @@ html {
  */
 
 body {
-  margin: 0;
-  color: $dark-cocolate;
   background-color: $white;
+  color: $dark-cocolate;
+  margin: 0;
   // overflow-x: hidden;
   @include dark{
       background-color: $black;
@@ -173,8 +173,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
-  overflow: visible;
+input {
+  overflow: visible; /* 1 */
 }
 
 /**
@@ -183,8 +183,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
-  text-transform: none;
+select {
+  text-transform: none; /* 1 */
 }
 
 /**

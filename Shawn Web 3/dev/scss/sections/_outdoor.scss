@@ -2,17 +2,15 @@
     Outdoor
 ============= */
 #section-7 {
-
     background-color: $dark-cocolate;
-    // height: 112vh;
-    margin-bottom: 304px;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
     grid-template-areas: "content";
-    @include dark{
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 304px;
+    @include dark {
         background-color: $light-chocolate;
     }
-    @include md{
+    @include md {
         margin-bottom: 224px;
     }
 
@@ -20,24 +18,22 @@
         grid-area: content;
 
         article {
-            // grid-area: article;
-            padding: 32px 16px 64px;
             color: $white;
             margin-bottom: 16px;
-            @include dark{
+            padding: 32px 16px 64px;
+            @include dark {
                 color: $black;
             }
-            @include md{
-                padding: 48px 40px;
+            @include md {
+                margin-bottom: 0;
                 margin-right: 50vw;
-                margin-bottom: 0px;
-
+                padding: 48px 40px;
             }
-            @include lg{
-                padding: 64px 0px 64px 200px;
+            @include lg {
+                padding: 64px 0 64px 200px;
             }
-            @include xl{
-                padding: 64px 0px 64px 400px;
+            @include xl {
+                padding: 64px 0 64px 400px;
             }
 
             h3 {
@@ -48,28 +44,27 @@
         }
 
         aside {
-            // grid-area: figure;
             figure {
                 position: relative;
                 width: 100%;
 
                 img {
+                    height: 384px;
                     pointer-events: none;
                     position: absolute;
-                    z-index: 10;
-                    width: 280px;
-                    height: 384px;
-                    right: 0px;
+                    right: 0;
                     top: -80px;
-                    @include md{
+                    width: 280px;
+                    z-index: 10;
+                    @include md {
+                        height: 576px;
                         top: -264px;
                         width: 420px;
-                        height: 576px;
                     }
-                    @include lg{
+                    @include lg {
+                        height: 648px;
                         top: -304px;
                         width: 472px;
-                        height: 648px;
                     }
                 }
             }

@@ -10,16 +10,16 @@
         padding: 104px 0 64px;
     }
     @include xl {
-        padding:  64px 0;
+        padding: 64px 0;
     }
 
     > div {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
         grid-template-areas: "article" "img";
+        grid-template-columns: repeat(1,1fr);
         @include md {
-            grid-template-columns: 400px auto;
             grid-template-areas: "article img";
+            grid-template-columns: 400px auto;
             position: relative;
         }
         @include lg {
@@ -30,9 +30,8 @@
             grid-area: article;
             @include md {
                 position: absolute;
-                z-index: 100;
                 top: 0;
-                // left: 32px;
+                z-index: 100;
             }
 
             h3 {
@@ -45,36 +44,33 @@
         }
 
         aside {
-            grid-area: img;
-            margin-top: 32px;
-            display: flex;
             align-items: center;
+            display: flex;
+            grid-area: img;
             justify-content: center;
+            margin-top: 32px;
             @include md {
-                margin-top: 176px;
-                // position: absolute;
                 height: 304px;
                 margin-left: -200px;
+                margin-top: 176px;
                 z-index: 50;
             }
 
             figure {
-                border-radius: 73% 27% 81% 19% / 69% 61% 39% 31%;
                 background-image: url("../img/communication/manOnRockWall.jpg");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                width: 100%;
-                height: 100vw;
+                border-radius: 73% 27% 81% 19% / 69% 61% 39% 31%;
                 filter: grayscale(0.5);
+                height: 100vw;
+                width: 100%;
                 @include md {
                     height: 304px;
                     opacity: 0.25;
-                    @include dark{
+                    @include dark {
                         opacity: 0.5;
-
                     }
-
                 }
             }
         }

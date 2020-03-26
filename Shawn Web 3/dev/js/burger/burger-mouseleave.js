@@ -7,11 +7,11 @@ $("#burger-container").on("mouseleave", function() {
 
         // play the timeline to combine the lines into 1 line
         // lineToLines.play();
-    }else{
+    } else {
         console.log("is open true mouseLeave");
         //tlXToRightArrow.invalidate().restart();
         // lineToLines.invalidate().restart();
 
         // lineToLines.play();
-}
+    }
 });

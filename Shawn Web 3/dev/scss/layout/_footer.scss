@@ -4,22 +4,15 @@
 footer {
     background-color: $dark-cocolate;
     padding: 16px 0;
-    // @include dark{
-    //     background-color: $chocolate;
-    //
-    // }
-    >div{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        p{
-            color: $white;
-            // @include dark{
-            //     color: $white;
-            //
-            // }
 
+    > div {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        p {
+            color: $white;
         }
     }
 }

@@ -1,4 +1,3 @@
-
 var navigationWidth = $("nav").width();
 // var navigationHeight = $("nav").scrollTop();
 
@@ -9,7 +8,7 @@ var contentSections = ["#section-1", "#section-3", "#section-4", "#section-5", "
 var st = $('#section-3').scrollTop();
 console.log(st);
 // listen for the window to resize and reset the nav width var
-$( window ).resize(function() {
+$(window).resize(function() {
     console.log(navigationWidth);
     navigationWidth = $("nav").width();
 });
