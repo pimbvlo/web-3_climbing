@@ -35,7 +35,11 @@ header {
                 }
 
                 .cls-1 {
-                    fill: $white;
+                    fill: $dark-cocolate;
+                    @include dark {
+                        fill: $white;
+                    }
+
                 }
             }
 
@@ -55,11 +59,19 @@ header {
                 cursor: pointer;
 
                 #burger-outline {
-                    stroke: $white;
+                    stroke: $dark-cocolate;
+                    @include dark {
+                        stroke: $white;
+                    }
+
                 }
 
                 .burger-lines {
-                    stroke: $white;
+                    stroke: $dark-cocolate;
+                    @include dark {
+                        stroke: $white;
+                    }
+
                 }
             }
         }

@@ -109,7 +109,7 @@
                     top: 504px;
                 }
                 @include lg {
-                    top: 952px;
+                    top: 720px;
                 }
                 @include xl {
                     top: 840px;
@@ -117,7 +117,7 @@
 
                 img {
                     @include lg {
-                        width: 648px;
+                        width: 600px;
                     }
                 }
             }
